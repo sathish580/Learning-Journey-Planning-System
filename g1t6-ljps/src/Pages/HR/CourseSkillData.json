@@ -1,0 +1,51 @@
+[
+  {
+    "Course_ID": "COR002",
+    "Skill_ID": 2000
+  },
+  {
+    "Course_ID": "SAL003",
+    "Skill_ID": 2001
+  },
+  {
+    "Course_ID": "FIN001",
+    "Skill_ID": 2002
+  },
+  {
+    "Course_ID": "COR006",
+    "Skill_ID": 2000
+  },
+  {
+    "Course_ID": "tch019",
+    "Skill_ID": 2000
+  },
+  {
+    "Course_ID": "COR002",
+    "Skill_ID": 2000
+  },
+  {
+    "Course_ID": "COR002",
+    "Skill_ID": 2000
+  },
+  {
+    "Course_ID": "MGT001",
+    "Skill_ID": 2001
+  },
+  {
+    "Course_ID": "MGT002",
+    "Skill_ID": 2001
+  },
+  {
+    "Course_ID": "MGT003",
+    "Skill_ID": 2001
+  },
+  {
+    "Course_ID": "SAL004",
+    "Skill_ID": 2001
+  },
+  {
+    "Course_ID": "tch018",
+    "Skill_ID": 2001
+  }
+  
+]

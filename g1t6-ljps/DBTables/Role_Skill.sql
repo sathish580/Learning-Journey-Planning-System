@@ -1,0 +1,22 @@
+CREATE TABLE `Role_Skill` (
+  `Job_Role_ID` int NOT NULL,
+  `Skill_ID` int NOT NULL,
+  PRIMARY KEY (`Job_Role_ID`,`Skill_ID`),
+  KEY `Role_Skill_FK2` (`Skill_ID`),
+  CONSTRAINT `Role_Skill_FK1` FOREIGN KEY (`Job_Role_ID`) REFERENCES `Job_Role` (`Job_Role_ID`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `Role_Skill_FK2` FOREIGN KEY (`Skill_ID`) REFERENCES `Skill` (`Skill_ID`)
+)
+
+INSERT INTO LJPS.Role_Skill(Job_Role_ID,Skill_ID) VALUES
+(4002,2002),
+(4000,2003),
+(4002,2005),
+(4002,2009),
+(4002,2010),
+(5000,2012),
+(5001,2012),
+(5002,2012),
+(5003,2012),
+(5004,2012),
+(4000,2019);
+
